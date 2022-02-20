@@ -1,0 +1,1 @@
+export const UPDATE_DIVISOR = "UPDATE_DIVISOR";

@@ -1,0 +1,56 @@
+.container {
+  width: 100%;
+  display: flex;
+  padding: 24px 4vw;
+  box-sizing: border-box;
+  flex-direction: column;
+
+  .header {
+    width: 100%;
+    
+    .title {
+      font-size: 2em;
+      font-weight: 400;
+    }
+  }
+
+  .main {
+    gap: 24px;
+    width: 100%;
+    display: flex;
+    padding: 24px 0px;
+    padding-bottom: 20vh;
+    box-sizing: border-box;
+    flex-direction: column;
+  }
+}
+
+@media Only screen and (max-width: 1040px) {
+  .container {
+    .header {
+      .title {
+        font-weight: 500;
+      }
+    }
+    
+    .main {
+      padding: 24px 0px;
+    }
+  }
+}
+
+@media Only screen and (max-width: 640px) {
+  .container {
+    .header {
+      font-size: 90%;
+    }
+  }
+}
+
+@media Only screen and (max-width: 440px) {
+  .container {
+    .header {
+      font-size: 70%;
+    }
+  }
+}

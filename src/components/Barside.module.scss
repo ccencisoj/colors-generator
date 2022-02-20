@@ -1,0 +1,10 @@
+.barside {
+  width: var(--barside-width);
+  min-height: 100vh;
+  display: flex;
+  padding: 32px 0px;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  border-right: 1px #e5e5ee solid;
+}

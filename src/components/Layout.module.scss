@@ -1,0 +1,33 @@
+.layout {
+  width: 100vw;
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
+  .navigation {
+    width: 100%;
+  }
+
+  .row {
+    width: 100%;
+    display: flex;
+    min-height: 100%;
+    flex-direction: row;
+
+    .main {
+      width: calc(100% - var(--barside-width));
+    }
+  }
+}
+
+@media Only screen and (max-width: 1040px) {
+  .layout {
+    .row {
+      width: 100%;
+      
+      .main {
+        width: 100%;
+      }
+    }
+  }
+}

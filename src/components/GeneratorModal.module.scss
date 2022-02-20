@@ -1,0 +1,30 @@
+.generator_modal {
+  opacity: 0;
+  display: flex;
+  width: 100vw;
+  margin-top: 20vh;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-20px);
+  animation: animation1 300ms ease 0s 1 forwards;
+}
+
+@keyframes animation1 {
+  to {
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+.will_hidden_modal {
+  opacity: 1;
+  transform: translateY(0px);
+  animation: animation2 300ms ease 0s 1 forwards;
+}
+
+@keyframes animation2 {
+  to {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}

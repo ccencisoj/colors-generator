@@ -1,0 +1,31 @@
+.navigation {
+  width: 100%;
+  height: var(--navigation-height);
+  display: flex;
+  padding: 0px 4vw;
+  align-items: center;
+  flex-direction: row;
+  box-sizing: border-box;
+  background-color: #fff;
+
+  .left {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+@media Only screen and (max-width: 640px) {
+  .navigation {
+    padding: 0px 12px;
+  }
+}

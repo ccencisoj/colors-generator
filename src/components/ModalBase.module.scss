@@ -1,0 +1,9 @@
+.modal_base {
+  top: 0px;
+  left: 0px;
+  width: 100vw;
+  z-index: 1000;
+  position: fixed;
+  min-height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+}

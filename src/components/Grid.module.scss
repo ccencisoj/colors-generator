@@ -1,0 +1,18 @@
+.grid {
+  gap: 12px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, calc(33% - 6px));
+}
+
+@media Only screen and (max-width: 1240px) {
+  .grid {
+    grid-template-columns: repeat(2, calc(50% - 3px));
+  }
+}
+
+@media Only screen and (max-width: 640px) {
+  .grid {
+    grid-template-columns: repeat(1, calc(100% - 0px));
+  }
+}

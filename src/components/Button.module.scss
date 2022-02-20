@@ -1,0 +1,58 @@
+.button {
+  --color: #000;
+  gap: 8px;
+  height: 56px;
+  display: flex;
+  padding: 0px 32px;
+  border-radius: 5px;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+
+  .label {
+    font-weight: 500;
+    color: var(--color);
+  }
+
+  .icon {
+    width: 24px;
+    height: 24px;
+    color: var(--color);
+  }
+}
+
+.primary {
+  --color: #fff;
+  background-color: var(--primary-color);  
+}
+
+.primary:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.primary:active {
+  background-color: var(--primary-color-active);
+}
+
+.expand {
+  width: 100%;
+}
+
+.flex {
+  flex: 1;
+}
+
+.only_icon {
+  width: 56px;
+  height: 56px;
+  padding: 0px 0px;
+  border-radius: 50%;
+}
+
+.only_icon:hover {
+  background-color: #f5f5ff;
+}
+
+.only_icon:active {
+  background-color: #e9e9ee;
+}
